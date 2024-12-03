@@ -7,7 +7,10 @@ In the VC terminal add these commands
 
 and with that we can run the program
 * go run main.go
- * http://localhost:8080
+
+* here show de port 
+ http://localhost:8080
+
 in an other terminal
 
 * curl -X POST http://localhost:8080/HollaMundo -H "Content-Type: text/xml" -d @soap_request.xml
